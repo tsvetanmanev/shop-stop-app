@@ -1,0 +1,22 @@
+{
+  "name": "shop-stop-app",
+  "version": "0.0.1",
+  "description": "Shop Stop is a learning app for the SoftUni ExpressJS 2017 course",
+  "main": "index.js",
+  "engine": "7.1.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Shop",
+    "Stop",
+    "App",
+    "ExpressJs",
+    "NodeJs"
+  ],
+  "author": "Tsvetan Manev",
+  "license": "MIT",
+  "dependencies": {
+    "standard": "10.0.2"
+  }
+}
