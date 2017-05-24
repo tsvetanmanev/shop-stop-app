@@ -24,7 +24,7 @@ module.exports = (req, res) => {
     fs.readFile(filePath, (err, data) => {
       if (err) {
         console.log(err)
-        res.WriteHead(404, {
+        res.writeHead(404, {
           'Content-Type': 'text/plain'
         })
         res.write('Resource not found!')
